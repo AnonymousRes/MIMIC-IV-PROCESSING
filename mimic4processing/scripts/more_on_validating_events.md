@@ -36,10 +36,10 @@ Here is the output of `validate_events.py`:
 
 | Type | Description | Number of rows |
 | --- | --- | --- |
-| `n_events` | total number of events | 371495631 |
+| `n_events` | total number of events | 391757897 |
 | `empty_hadm` | HADM_ID is empty in `events.csv`. We exclude such events. | 17513787 |
-| `no_hadm_in_stay` | HADM_ID does not appear in `stays.csv`. We exclude such events. | 60988529 |
+| `no_hadm_in_stay` | HADM_ID does not appear in `stays.csv`. We exclude such events. | 64249055 |
 | `no_icustay` | ICUSTAY_ID is empty in `events.csv`. We try to fix such events. | 20924803 |
 | `recovered` | empty ICUSTAY_IDs are recovered according to stays.csv files (given HADM_ID) | 20924803 |
 | `could_not_recover` | empty ICUSTAY_IDs that are not recovered. This should be zero. | 0 |
-| `icustay_missing_in_stays` | ICUSTAY_ID does not appear in stays.csv. We exclude such events. | 10341642 |
+| `icustay_missing_in_stays` | ICUSTAY_ID does not appear in stays.csv. We exclude such events. | 10957456 |
