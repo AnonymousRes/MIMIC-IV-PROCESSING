@@ -1,16 +1,6 @@
 MIMIC-IV Dataset Processing
 =========================
 This repository was modified from https://github.com/YerevaNN/mimic3-benchmarks.
-
-## Structure
-The content of this repository can be divided into four big parts:
-* Tools for creating the MIMIC-IV datasets.
-
-The `mimic4processing/scripts` directory contains scripts for creating the benchmark datasets.
-The reading tools are in `mimic4processing/readers.py`.
-
-
-
 ## Requirements
 
 We do not provide the MIMIC-IV data itself. You must acquire the data yourself from https://mimic.physionet.org/. Specifically, download the CSVs. Otherwise, generally we make liberal use of the following packages:
