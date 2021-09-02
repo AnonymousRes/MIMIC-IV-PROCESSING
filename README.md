@@ -25,7 +25,7 @@ Here are the required steps to build the benchmark. It assumes that you already 
 1. Clone the repo. 
 
        cd ~/
-       git clone https://github.com/xxxx/MIMIC-IV-PROCESSING/
+       git clone https://github.com/https://github.com/AnonymousRes/MIMIC-IV-PROCESSING/
        mkdir ~/mimic4processed/
        cd ~/MIMIC-IV-PROCESSING/
 
